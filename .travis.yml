@@ -71,6 +71,9 @@ env:
 cache:
   directories:
     - $HOME/.rvm
-
+    
+branches:
+  only:
+  - s390x-travis
 notifications:
   webhooks: https://scala-ci.typesafe.com/benchq/webhooks/travis
